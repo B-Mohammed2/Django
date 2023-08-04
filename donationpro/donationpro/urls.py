@@ -16,10 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.views.generic.base import TemplateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('app1/', include('app1.urls')),
-    path('accounts/',include("django.contrib.auth.urls"))
+    # accounts path for login
+    path('accounts/',include("django.contrib.auth.urls")),
+    # creating path to open home page
+    path('', include('app1.urls')),
     
 ]
