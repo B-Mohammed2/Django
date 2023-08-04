@@ -18,12 +18,12 @@ jango project
 7. As a Donor: I want to be able to submit Feedback/Comments and be contacted if necessary.
    
 
+style used for naming the files and function is snake_case
 
-
-  # Refrences
+# Refrences
    
-   https://www.youtube.com/watch?v=rHux0gMZ3Eg
-   set up
-   
-   https://www.w3schools.com/django/django_getstarted.php
+  https://www.youtube.com/watch?v=rHux0gMZ3Eg
+  set up
+  
+  https://www.w3schools.com/django/django_getstarted.php
 
