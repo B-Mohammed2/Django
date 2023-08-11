@@ -17,7 +17,7 @@ class donation_table(models.Model):
 
 class charities_organizations_name(models.Model):
     charities_organizations_name= models.CharField(max_length=50, primary_key=True)
-    description=models.CharField(max_length=500)
-    contact_details=models.CharField(max_length=25)
-    email=models.CharField(max_length=100)
+    description=models.CharField(max_length=500, default='decription of organization')
+    contact_details=models.CharField(max_length=25, default='contact number')
+    email=models.CharField(max_length=200, default='example@example.com')
     
