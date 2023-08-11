@@ -25,5 +25,6 @@ urlpatterns = [
     path('accounts/',include("django.contrib.auth.urls")),
     # creating path to open home page
     path('', include('app1.urls')),
-    
+    # creating rout for users app
+    path('users/',include('users.urls')),
 ]
