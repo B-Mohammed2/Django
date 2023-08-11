@@ -20,7 +20,14 @@ jango project
 
 style used for naming the files and function is snake_case
 
-# Refrences
+# Table design
+
+
+# Wireframe
+
+
+
+# References
    
   https://www.youtube.com/watch?v=rHux0gMZ3Eg
   set up
