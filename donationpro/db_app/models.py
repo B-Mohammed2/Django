@@ -13,8 +13,11 @@ class donation_table(models.Model):
     donation_amount= models.DecimalField(max_digits=10, decimal_places=2, null=True)
     donor_detaills=models.CharField(max_length=100, null=True)
     # date_and_time_of_donation=models.DateField()
-    organizations_name=models.CharField()
+    organizations_name=models.CharField(max_length=200,null=True)
 
 class charities_organizations_name(models.Model):
     charities_organizations_name= models.CharField(max_length=50, primary_key=True)
+    description=models.CharField(max_length=500)
+    contact_details=models.CharField(max_length=25)
+    email=models.CharField(max_length=100)
     
