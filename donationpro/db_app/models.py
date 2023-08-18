@@ -26,6 +26,3 @@ class charities_organizations_name(models.Model):
 class comments_and_feedback(models.Model):
     comment_ID=models.AutoField(primary_key=True)
     user_ID=models.EmailField(default='example@example.com')
-    
-
-
