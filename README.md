@@ -1,5 +1,4 @@
-# 
-jango project
+# jango project
 
 ### User stories
 
